@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C95D9E4-29CB-DA7C-96B1-03AB8D47A204" name="CONFIGURAÇAO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>11706583-E9E3-41ED-E3C9-98EF36067B36</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_DE_AVIAO_tipo_aviao_id" id="36533B36-5768-CFDD-AC7F-AD59E3060CE0">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>2421AF30-F38A-1564-6DAE-30FF69A98F1F</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AD67D34-78CB-F671-8C95-EF06D18FD92F" referredColumn="AF63C974-4D22-0B95-C2C7-9C32B4AF22B4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC445952-24E1-750F-C52B-9F95A142B2A4" name="CONFIGURAÇAO_TIPO_DE_AVIAO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>DBB72C0A-7795-0DD9-1B85-A42B3226A820</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36533B36-5768-CFDD-AC7F-AD59E3060CE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

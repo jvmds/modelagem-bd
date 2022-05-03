@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6EE91F2-7268-735E-DD9D-E121483FEB45" name="Livro">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:40:41 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="isbn" id="B2B03089-0F7D-5FDF-9FA4-1FC5D4E358F1">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:40:59 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="34D324DF-02CA-EDDF-3040-A665C8D9DF00">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:41:11 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano" id="D2E100A6-7CE0-C431-432E-20A820B68F14">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:41:18 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="editora" id="715118A3-CBD1-E751-BF7A-C39C4BDEFBD6">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:41:31 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

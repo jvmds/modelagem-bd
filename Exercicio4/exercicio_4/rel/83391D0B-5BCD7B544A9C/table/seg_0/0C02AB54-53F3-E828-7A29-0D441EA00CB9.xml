@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C02AB54-53F3-E828-7A29-0D441EA00CB9" name="TELEFONE_AGENCIA_BANCARIA">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>323F755F-9681-6265-ED7C-F65F46052057</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone_id" id="03BB4691-1531-00CD-8519-C7AFA23953F0">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>ABC6E26B-96E8-1198-23BC-494000655C88</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENCIA_BANCARIA_agencia_bancaria_id" id="57CB319F-41F9-8F90-4325-8B908AA197BF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>2C9EE9E6-DB8A-D62A-383D-340113579B72</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38EBCD0B-F88E-744A-23BE-83E69DBD99FD" referredColumn="E3C179D8-CA77-FA52-C3B5-ED239ED87456"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A62C513-2DD4-6972-9941-6F26D8B5E865" name="TELEFONE_AGENCIA_BANCARIA_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>0BF90773-38B6-80D5-406D-8A05CA1F1744</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03BB4691-1531-00CD-8519-C7AFA23953F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1131FC23-C4DA-3A58-E518-0EB612CD967F" name="TELEFONE_AGENCIA_BANCARIA_AGENCIA_BANCARIA_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>4803C6EA-6FBF-74F0-F049-31DACE43A4C3</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57CB319F-41F9-8F90-4325-8B908AA197BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

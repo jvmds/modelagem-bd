@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B047FD6B-7BCF-4F62-3EDC-E82481A9D412" name="TIPO_DE_AVIAO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>9BC3533E-BBB9-D04B-5F93-0C8EADE9DD40</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_aviao_id" id="AF63C974-4D22-0B95-C2C7-9C32B4AF22B4">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>F8FD170A-7A4C-E9D8-E5CD-00ED362E9736</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_tipo" id="83F57283-E326-97AD-6B30-48A132C9E4C0">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>B2B9ED9F-614F-13EE-1F34-EBDED6361DCF</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa" id="98374B23-7D24-0946-56EC-83E2AFCA391C">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>02D11462-F5B1-0ADF-23C2-46A8EBEBD28A</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D59ABE7C-8A79-A164-EB31-6492076E9C43" name="TIPO_DE_AVIAO_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>C5A234D4-841B-B6E8-0322-0F27C00F87A5</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF63C974-4D22-0B95-C2C7-9C32B4AF22B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

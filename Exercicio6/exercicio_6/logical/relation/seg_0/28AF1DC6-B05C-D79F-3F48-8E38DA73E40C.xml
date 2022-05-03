@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MEDICO_POSSUI_TELEFONE" directorySegmentName="seg_0" id="28AF1DC6-B05C-D79F-3F48-8E38DA73E40C">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 20:02:02 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14B0FAD2-B229-846A-58B8-CCBDF949734D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>51AC661E-0667-DC61-ABE4-46D74F47FCEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

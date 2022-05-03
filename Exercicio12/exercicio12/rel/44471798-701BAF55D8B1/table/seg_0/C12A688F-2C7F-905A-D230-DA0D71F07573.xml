@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C12A688F-2C7F-905A-D230-DA0D71F07573" name="Cliente">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>32D62279-F141-BE26-CBDE-BF73E5D1603E</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="5EBBDC1B-6E6F-C799-08BD-558F3DCA2B8A">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>32E75AAD-41AF-61F7-3BEA-0E39D678E651</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="E6D30D42-62C6-6E9F-2631-9B085B9F4A94">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>9BD605DB-91FD-AEC3-5C8D-4BF7BEB7D1FB</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="2C536DB2-8F41-B371-A69A-E7B79A3BC763">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>4AD173B8-C832-0E4D-55E4-E5DF58307506</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="61BABDB9-DE46-D208-C468-B5895DD53AC3">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>8E744FBB-FCB1-BE99-FD76-CA0D823166F3</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="7EF32A1D-DE8D-3DF8-2678-7C3679637C66">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>CAB9E539-9684-DFC4-4F74-B30E396574C8</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="limite_credito" id="BBBA37B6-6390-8214-50EF-A67D0B474045">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>BA0B6FC9-4646-4E81-F90A-9B545B8DD65A</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID" id="87873247-1995-E463-E5B3-F3514CF6F4F0">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78DCE9AE-02A6-9768-1026-93C40F713A0B" name="Cliente_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="87873247-1995-E463-E5B3-F3514CF6F4F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

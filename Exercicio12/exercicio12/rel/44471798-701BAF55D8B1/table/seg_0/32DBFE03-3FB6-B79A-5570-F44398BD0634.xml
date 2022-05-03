@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32DBFE03-3FB6-B79A-5570-F44398BD0634" name="FK_Pedido_Possui_Produto">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Produto_Produto_ID" id="1FF164A7-5411-EEB7-5DFC-962B0FDCF1AF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4026B0D0-9B87-FC7A-7BBF-23C07E865528" referredColumn="7B42F93A-15B9-E278-7830-49E2E92E89D7"/>
+</associations>
+</Column>
+<Column name="Pedido_Pedido_ID" id="8E75C179-389D-2B19-8C59-FC5DD73CBDA1">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12839839-48FD-0131-3920-E140F1DDBB54" referredColumn="555705EC-ADD3-C197-CFFB-69A8CF5F7222"/>
+</associations>
+</Column>
+<Column name="quantidade_comprada" id="81391946-4607-99BF-2097-8868B5297DDC">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>8023A218-EBAC-867E-D92D-8E2B9735EDA3</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="169D615F-9C8F-1E35-B6B2-EADC1FD44F01" name="FK_Pedido_Possui_Produto_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FF164A7-5411-EEB7-5DFC-962B0FDCF1AF"/>
+<colUsage columnID="8E75C179-389D-2B19-8C59-FC5DD73CBDA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2843CEDD-1745-5B00-91DC-0077161A9F86" name="FK_ASS_2">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>BEB5F0DB-2885-FF08-4702-7A36AB4DBB04</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FF164A7-5411-EEB7-5DFC-962B0FDCF1AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57DD61C5-2D88-F168-C308-BC186C1CFB5E" name="FK_ASS_3">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>BEB5F0DB-2885-FF08-4702-7A36AB4DBB04</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E75C179-389D-2B19-8C59-FC5DD73CBDA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B9FDFF4-9B3E-7C6F-DC9B-7BEA6E60FC70" name="DEPENDENTE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:04:34 UTC</createdTime>
+<generatorID>A55C65BE-BE3A-7B15-24E0-E542705A75F5</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome_dependente" id="FA3585DD-9B6E-C4B9-47C7-BF38056F1D27">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:04:34 UTC</createdTime>
+<generatorID>13172C81-217D-43FB-7979-9D3B61FE8693</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="A11FD50E-64E6-914C-A0AD-42C25C9594BF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:04:34 UTC</createdTime>
+<generatorID>E9B108BA-DEC3-A53B-A2A9-D2A3FCFDE5B3</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="CED5BEF1-C64B-9405-66F9-A3066E6985D9">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:04:34 UTC</createdTime>
+<generatorID>4C8E786B-133A-5285-96CB-BF357EBF93AE</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parentesco" id="9386ACC9-9F82-EDFE-D0B6-22626C0CCCA1">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:04:34 UTC</createdTime>
+<generatorID>49489CFA-1058-A03B-07C5-500186BA3A85</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPREGADO_EMPREGADO_ID" id="22B11E53-5C54-D682-A736-3122DE2787FC">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:04:34 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED3B4CCA-A3C7-D923-1E0F-3471D6A8D634" referredColumn="DF1F64E9-26C2-E8E0-CFA4-8B02F191BE8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C845FBC4-CC91-7149-2BB7-34BA488620E1" name="DEPENDENTE_EMPREGADO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:04:34 UTC</createdTime>
+<generatorID>A17CE1D8-5587-F1B9-C255-0FC95D947EFF</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22B11E53-5C54-D682-A736-3122DE2787FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

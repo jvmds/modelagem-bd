@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49CB00A7-B21E-833B-CAA2-F842E0793907" name="Livro">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<generatorID>B6EE91F2-7268-735E-DD9D-E121483FEB45</generatorID>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="isbn" id="EC0279EC-100A-14AA-3E28-21556EF2AE7D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<generatorID>B2B03089-0F7D-5FDF-9FA4-1FC5D4E358F1</generatorID>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="09EFD114-7197-8B4D-3F8F-4F5C3F80E8D3">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<generatorID>34D324DF-02CA-EDDF-3040-A665C8D9DF00</generatorID>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="709D5114-90BC-D49F-4779-93C2613A91D8">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<generatorID>D2E100A6-7CE0-C431-432E-20A820B68F14</generatorID>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="editora" id="5320A37A-8A29-1DBA-B292-023C1121BFA4">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<generatorID>715118A3-CBD1-E751-BF7A-C39C4BDEFBD6</generatorID>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Livro_ID" id="3451A2B9-7B25-4508-BE28-183E069BE361">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Categoria_Categoria_ID" id="EDE66BD3-E58E-9E66-9C41-5419BD9851ED">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB5E3415-6695-75BC-DDC6-4CFDC525962E" referredColumn="5AEE01E3-4440-B8CC-B457-56959FF9617C"/>
+</associations>
+</Column>
+<Column name="Autor_Autor_ID" id="70CD176B-B441-9AC2-67B5-D333B805F888">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34FC15C4-EC16-19AE-9A37-8A21D77530BB" referredColumn="0B61750B-B9F5-8263-4689-E669768DD5C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9CC8AED-6DEA-6FDC-5379-C5B42AED0CDB" name="Livro_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3451A2B9-7B25-4508-BE28-183E069BE361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5389BB8A-4B45-4C76-F930-72C90728F3EE" name="Livro_Categoria_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<generatorID>F5181329-9C31-AAAF-1115-0D7825D3DBD0</generatorID>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDE66BD3-E58E-9E66-9C41-5419BD9851ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AC69F35-A124-C98B-07D6-469D2E241777" name="FK_Livro_Escrito_Autorv1">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:19:21 UTC</createdTime>
+<generatorID>846C4FE8-9996-BE27-DAB3-8BDA3E7D75F5</generatorID>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70CD176B-B441-9AC2-67B5-D333B805F888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

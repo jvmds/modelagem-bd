@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AD47CA2-338C-17C1-3FB9-D5F5CE83F9F5" name="CLIENTE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:12:00 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cliente_id" id="9408E04F-16AF-F124-9A6D-6211C744CAAE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:15:40 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="F04EBC00-F232-8BFC-CFCE-DD1187BDC7BE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:12:08 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="B80EDEC8-71A2-804A-7A0E-9ABCE37FBD5E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:12:17 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_id1" id="2E4AA928-197D-B637-F9AF-9CD0CA9EC168">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:45:26 UTC</createdTime>
+<generatorID>DE29EBA1-E1E2-609B-D359-9C21091A4F20</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<referedAttribute>79D43A2B-550B-AA46-8220-337212E6A998</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CB51F67-21F0-F19A-B3FA-8CD18FA60DAD" name="CLIENTE PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:15:52 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9408E04F-16AF-F124-9A6D-6211C744CAAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

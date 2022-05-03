@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1086426B-80EA-1435-5500-B496742B3FDB" name="Aeroporto">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:29:39 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="aeroporto_id" id="AE4825D0-310C-8122-0719-E71F4970A73C">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:33:19 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_aerio" id="A9FC862A-6FE8-2B5E-3039-585675F6DCB0">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:29:54 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="90F36051-B1D7-BD67-A095-0EC0EF400589">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:30:00 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80835935-31E6-DDDC-88CB-52F5F732B02C" name="Aeroporto PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:30:35 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE4825D0-310C-8122-0719-E71F4970A73C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

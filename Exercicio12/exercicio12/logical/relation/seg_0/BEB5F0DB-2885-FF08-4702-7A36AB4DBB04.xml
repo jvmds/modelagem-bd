@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Pedido_Possui_Produto" directorySegmentName="seg_0" id="BEB5F0DB-2885-FF08-4702-7A36AB4DBB04">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:52:31 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<engineerTo>
+<item key="44471798-14C3-1767-9EDA-701BAF55D8B1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E57E7454-E4B4-CBAD-734E-136F82C02CFD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>555BADDD-B6F6-3661-DB4A-43406449581E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="quantidade_comprada" id="8023A218-EBAC-867E-D92D-8E2B9735EDA3">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:53:52 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<engineerTo>
+<item key="44471798-14C3-1767-9EDA-701BAF55D8B1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

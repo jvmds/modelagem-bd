@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BBD0B62-CE74-F447-10E1-0F5F9EB7E945" name="Curso">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:14:30 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="656A6858-FD07-7E6D-09EA-1E37881E38C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFFE2230-A946-3780-D88F-4E774C0838A1" name="Aeroporto">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>1086426B-80EA-1435-5500-B496742B3FDB</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aeroporto_id" id="D85874EF-B8F8-AD8F-4EF7-67284507117E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>AE4825D0-310C-8122-0719-E71F4970A73C</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_aerio" id="7F522C80-C3CE-6206-BC35-6EA082F21F4D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>A9FC862A-6FE8-2B5E-3039-585675F6DCB0</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="347192E6-F372-4158-94F1-EF68AC0B5938">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>90F36051-B1D7-BD67-A095-0EC0EF400589</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE_CIDADE_ID" id="48F28260-9EF8-22DB-1A4B-100A4D9BD7D5">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DECA574-3B95-B144-0935-6860D426AE58" referredColumn="B4075E8B-91D6-6BDB-D8ED-669943587AB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31AFF66C-83E1-D7C3-AA2B-27CBBAD0AA3F" name="Aeroporto_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>80835935-31E6-DDDC-88CB-52F5F732B02C</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D85874EF-B8F8-AD8F-4EF7-67284507117E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20E7D393-EA1F-892B-5A8F-E7F0DC576BF1" name="Aeroporto__IDX">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D5D6DCD8-7E4D-A554-97CA-A43588DE75A0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="48F28260-9EF8-22DB-1A4B-100A4D9BD7D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2F9E47E-4C38-381E-9B0E-CBBC59148F5A" name="Aeroporto_CIDADE_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>D5D6DCD8-7E4D-A554-97CA-A43588DE75A0</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48F28260-9EF8-22DB-1A4B-100A4D9BD7D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

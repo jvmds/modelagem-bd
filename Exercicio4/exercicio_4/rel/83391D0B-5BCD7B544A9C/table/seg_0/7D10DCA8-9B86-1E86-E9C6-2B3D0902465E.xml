@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D10DCA8-9B86-1E86-E9C6-2B3D0902465E" name="TELEFONE_CLIENTE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>9A1C115F-2001-9ABD-8B68-FBD72E23FF48</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone_id" id="5788588D-1DA9-0489-0026-F4EC5505492D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>976B3A66-FB69-09D5-D22B-590F7CC68239</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_cliente_id" id="F20BA93E-54C4-25C7-A45E-2EF007822C69">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>FBAE9AB3-BF57-B098-0A23-1717F18EA2FA</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39A61DA4-97C8-0D5B-346D-7D9663BD9AA3" referredColumn="8F266035-222C-A983-344C-E6B5F6AB0651"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C922AF38-CD49-7301-9596-FC1732AEB255" name="TELEFONE_CLIENTE_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>BB61182C-86FA-1C71-1F74-5E8AD1EC0CA4</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5788588D-1DA9-0489-0026-F4EC5505492D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D58389F5-AFEB-8020-924A-0455CFD14E7D" name="TELEFONE_CLIENTE_CLIENTE_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>8674D770-0CEB-E8A4-1E44-212D6E551A88</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F20BA93E-54C4-25C7-A45E-2EF007822C69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

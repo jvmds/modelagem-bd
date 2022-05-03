@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B721C6BE-58D3-CA68-D79B-0B599640F492" name="ENDERECO_CLIENTE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>4CB67017-E281-69D1-BFA1-641491B7EBE8</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="endereco_id" id="4B3A812D-8046-D890-4A52-10B1F2050A1B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>79D43A2B-550B-AA46-8220-337212E6A998</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="08050233-0904-50DF-E917-7DD16E890DA4">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>E280A8D9-8062-2813-7F76-890060FB2614</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="BD37D80F-7562-8721-AF32-4B4BE6611981">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>A3A9F6C9-6602-8EF8-844A-6BFFFA64283F</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="96ED2464-05AE-3912-4760-02687F255464">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>50FF6F58-C596-D11A-815E-701B90CE2050</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="3025002A-181D-7D02-6304-686851AEE99B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>EAEDACF3-8F84-7B06-83AF-75E8957C96CD</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_id" id="4DACBC5A-94D9-E98F-D712-F9BC8743A7F2">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>F4FA0A8F-B05D-CE8A-3C06-666E9644533B</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EF10BFA-7827-3085-39AF-E8C88F789DD4" name="ENDERECO_CLIENTE_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>13D968E2-7AE8-5487-FA76-43A0194BFA0A</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B3A812D-8046-D890-4A52-10B1F2050A1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

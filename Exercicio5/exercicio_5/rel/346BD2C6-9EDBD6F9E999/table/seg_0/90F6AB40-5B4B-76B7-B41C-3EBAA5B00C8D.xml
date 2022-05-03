@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90F6AB40-5B4B-76B7-B41C-3EBAA5B00C8D" name="DISCIPLINA">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<generatorID>ECBB4A2B-8510-54E8-B924-B4DF57599633</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="descricao" id="38A07F5C-914D-CF83-4FD4-01225683A783">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<generatorID>0FA7A09D-A53D-AA90-C723-8209788E0BD1</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ementa" id="6BE22A98-F368-CE11-C6E6-4B457EB15C08">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<generatorID>D6437161-F46A-ED4A-EF95-8DDAFFDE75B6</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_CURSO_ID" id="73AC9F8B-6C26-5FDA-D5E1-67496020831E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E9FF92C-FFCE-49BE-0230-9239FD654475" referredColumn="EAC02641-B753-AA1A-014C-CDBAC262D5B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44EA7702-5EF4-0241-D178-9031AC4F9328" name="DISCIPLINA_CURSO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<generatorID>FF926EB4-E6E3-35D3-8E55-4F20AB5AC51E</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73AC9F8B-6C26-5FDA-D5E1-67496020831E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

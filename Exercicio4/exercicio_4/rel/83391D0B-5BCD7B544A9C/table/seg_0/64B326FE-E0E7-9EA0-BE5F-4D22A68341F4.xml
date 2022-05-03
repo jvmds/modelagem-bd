@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64B326FE-E0E7-9EA0-BE5F-4D22A68341F4" name="ENDERECO_BANCO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>12000CD8-F78D-FAB4-509F-DCE0453799F0</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="endereco_id" id="28AE5F09-5E71-B6E2-50C2-715520E1D82D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>CA04E66E-E6B1-9D7F-82CF-96028F6D1B0D</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="B14D1B61-9306-F313-39AF-B54CDA73A5FB">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>50856331-FE85-166A-8043-991D095AC5EC</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="CDC014C0-2152-2084-3FE3-C415CB34CD34">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>CFEC5B9B-6943-3A7F-20BA-919964AFE4A8</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="95EE6589-B8CD-8FB4-93FF-0B54388B39E7">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>8805D7A9-69A5-D55A-2B88-6B961467D3C4</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="CEA19C03-3369-80AD-7D09-F3D77A9038A3">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>1C3CADF8-D716-A731-ABD4-3845858CC37F</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="banco_id" id="80CC9C4C-F7EF-48B9-9236-41E28FC09702">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>24BA34DF-F7E5-BE00-2C8A-23E95350E7A8</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANCO_banco_id" id="022F09F9-64E0-5DCB-37E2-0A3DF5B57C3B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>D599AF0F-33B6-D25A-74E0-FC4222D4717F</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E86CD949-DF87-6A21-6345-7487DC4A09E9" referredColumn="C2FCDF85-4ACA-B742-0D8A-FF6F978A496D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5A03B67-451B-2D44-2AEC-5176C25D00FA" name="ENDERECO_BANCO_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>F6CC5549-320E-384B-24B0-497B9A8BCC74</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28AE5F09-5E71-B6E2-50C2-715520E1D82D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84DC7A42-6EB3-50EB-10B8-941461178D92" name="ENDERECO_BANCO__IDX">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B4F0EC95-D857-BD7C-9892-5938AF77389B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="022F09F9-64E0-5DCB-37E2-0A3DF5B57C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92AF75A0-4087-BB82-E9AF-39F1EA976175" name="ENDERECO_BANCO_BANCO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>B4F0EC95-D857-BD7C-9892-5938AF77389B</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="022F09F9-64E0-5DCB-37E2-0A3DF5B57C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

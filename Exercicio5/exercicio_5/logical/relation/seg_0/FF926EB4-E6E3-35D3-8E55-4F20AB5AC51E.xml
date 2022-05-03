@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CURSO_POSSUI_DISCIPLINA" directorySegmentName="seg_0" id="FF926EB4-E6E3-35D3-8E55-4F20AB5AC51E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:29:19 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="346BD2C6-3CC1-0882-37A6-9EDBD6F9E999" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D7544C9-E10F-B760-CBF8-E8ED371FDA91</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECBB4A2B-8510-54E8-B924-B4DF57599633</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

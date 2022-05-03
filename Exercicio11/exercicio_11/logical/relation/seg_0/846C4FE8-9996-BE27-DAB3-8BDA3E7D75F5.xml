@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Livro_Escrito_Autor" directorySegmentName="seg_0" id="846C4FE8-9996-BE27-DAB3-8BDA3E7D75F5">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:43:21 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B6EE91F2-7268-735E-DD9D-E121483FEB45</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>584B716F-5A87-6FCE-DD38-3EEA73EA4126</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="348AFB1A-4FD2-FFEE-52F2-0196723F549E" name="AGENCIA_BANCARIA">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>9CAD89DB-F8E6-3DB8-6B39-FEA3F483EA19</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="agencia_bancaria_id" id="E3C179D8-CA77-FA52-C3B5-ED239ED87456">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>AD20C47C-77BD-9BC0-E61D-CAC5F6750EEC</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_agencia" id="8CACEC0A-02D7-DF76-429B-1D177A8848FA">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>0803B4DA-3CBC-4673-5B37-CE5EB6CD2EF9</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_AGENCIA_BANCARIA_endereco_id" id="3C4DB38F-358B-506C-43B6-99E96833716D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>48EED16F-A303-41B4-5DA5-874A5E1DD06B</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAFC4B99-544E-9BF2-427E-8FF96B70A7F7" referredColumn="A6EA4EFE-CDFE-B8B3-2657-6BD978508427"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97E1C303-78CB-A724-1ADC-98E9142A3D9C" name="AGENCIA_BANCARIA_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>AA0740C9-A305-CF2B-8063-7FB876B5E1A5</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3C179D8-CA77-FA52-C3B5-ED239ED87456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="340B2D16-AB26-2722-58DA-73915983E049" name="AGENCIA_BANCARIA__IDX">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BBB0065C-2D5A-0B8E-ACCF-86C8EAD5A0F5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3C4DB38F-358B-506C-43B6-99E96833716D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A0DA2FF-1F34-7B8E-6B60-FC4B0314AA2F" name="AGENCIA_BANCARIA_ENDERECO_AGENCIA_BANCARIA_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>BBB0065C-2D5A-0B8E-ACCF-86C8EAD5A0F5</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C4DB38F-358B-506C-43B6-99E96833716D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

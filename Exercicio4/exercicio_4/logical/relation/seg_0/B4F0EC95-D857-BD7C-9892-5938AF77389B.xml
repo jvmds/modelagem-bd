@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_BANCO_POSSUI_ENDERECO" directorySegmentName="seg_0" id="B4F0EC95-D857-BD7C-9892-5938AF77389B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:53:37 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<sourcePk>719D615E-5612-3B6E-1789-EF33758A7DDE</sourcePk>
+<targetPk>F6CC5549-320E-384B-24B0-497B9A8BCC74</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>045D15D0-4735-D938-EDB1-5539B34B8CA6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>12000CD8-F78D-FAB4-509F-DCE0453799F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Compra_Possui_Produto" directorySegmentName="seg_0" id="0EB8DBE9-04AC-0330-32D7-E1480DB475F5">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:24:03 UTC</createdTime>
+<ownerDesignName>exercicio_9</ownerDesignName>
+<engineerTo>
+<item key="4042A3B6-544C-08F5-CEA2-AA81FE4702F4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A9FF21CF-5A37-8FC2-60A0-9EB6CC92D683</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECC46050-F318-A7E5-23F4-9803D014F27E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

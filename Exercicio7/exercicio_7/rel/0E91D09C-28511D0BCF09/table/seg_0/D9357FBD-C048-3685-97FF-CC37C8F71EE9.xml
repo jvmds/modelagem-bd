@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9357FBD-C048-3685-97FF-CC37C8F71EE9" name="CORRETOR">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<generatorID>B290118B-E98C-6649-5515-F7FD515BECEF</generatorID>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CORRETOR_ID" id="E3764D1F-9363-D0CA-3C4C-B7A7DD319D17">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="INQUILINOS_INQUILINOS_ID" id="21689A97-85EA-0663-D641-8480B0607C33">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="142C6624-ED34-AFB5-AA6C-4835684672A0" referredColumn="CC6D958B-8464-CEB1-AC2E-81916F463F92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C71E3C1-0C5F-C5C3-90BC-BD4E447E9AC8" name="CORRETOR_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E3764D1F-9363-D0CA-3C4C-B7A7DD319D17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7C3B792-C45E-DAAD-CE91-4A0E5DB29913" name="FK_Corretor_Atende_Inquilinov1">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<generatorID>14DD3AFE-220F-F6B5-8796-D8DD17DFD87A</generatorID>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21689A97-85EA-0663-D641-8480B0607C33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

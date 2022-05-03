@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4110CB28-082E-2731-7451-7BF8C3A5D6A6" name="RECEM_NASCIDO">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:41:06 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="6FD77606-30F2-5280-31C0-BE7125E25F1B">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:41:46 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="033D8D04-D6EC-5A2C-65E7-9BD663E98831">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:41:57 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso_do_nascimento" id="BEF30268-61FD-A302-CE2D-10C94E60F7B2">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:42:25 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="24EB26D0-C6EE-2CD2-C02E-6FED627B78FD">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:43:02 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

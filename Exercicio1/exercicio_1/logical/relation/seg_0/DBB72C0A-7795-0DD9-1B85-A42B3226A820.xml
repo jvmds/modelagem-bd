@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TIPO_DE_AVIAO_POSSUI_CONFIGURACAO" directorySegmentName="seg_0" id="DBB72C0A-7795-0DD9-1B85-A42B3226A820">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:58:19 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="true"/>
+</engineerTo>
+<sourcePk>C5A234D4-841B-B6E8-0322-0F27C00F87A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BC3533E-BBB9-D04B-5F93-0C8EADE9DD40</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>11706583-E9E3-41ED-E3C9-98EF36067B36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

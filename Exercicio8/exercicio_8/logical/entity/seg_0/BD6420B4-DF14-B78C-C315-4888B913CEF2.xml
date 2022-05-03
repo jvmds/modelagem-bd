@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD6420B4-DF14-B78C-C315-4888B913CEF2" name="Notas">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:12:02 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="656A6858-FD07-7E6D-09EA-1E37881E38C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo" id="96581CDD-6D71-0B60-7123-390C46A71993">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:09:22 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="656A6858-FD07-7E6D-09EA-1E37881E38C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="5E487ADC-C03F-628E-3495-A204B8BE795F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:09:27 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="656A6858-FD07-7E6D-09EA-1E37881E38C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

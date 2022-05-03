@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22B13F3E-F705-E4AA-D220-257919888C0A" name="Categoria">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:42:29 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_categoria" id="0459FE1E-ED4D-8685-80E0-9970F42E8321">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:42:37 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="79B70576-F5CF-BB5F-5D34-F870802A8643">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:42:57 UTC</createdTime>
+<ownerDesignName>exercicio_11</ownerDesignName>
+<engineerTo>
+<item key="CBC837CD-B325-5DEE-A06E-6B42A38245DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

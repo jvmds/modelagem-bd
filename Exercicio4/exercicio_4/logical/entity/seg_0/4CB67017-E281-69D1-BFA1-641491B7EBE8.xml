@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CB67017-E281-69D1-BFA1-641491B7EBE8" name="ENDERECO_CLIENTE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:44:10 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="endereco_id" id="79D43A2B-550B-AA46-8220-337212E6A998">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:44:10 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="E280A8D9-8062-2813-7F76-890060FB2614">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:44:10 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="A3A9F6C9-6602-8EF8-844A-6BFFFA64283F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:44:10 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="50FF6F58-C596-D11A-815E-701B90CE2050">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:44:10 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="EAEDACF3-8F84-7B06-83AF-75E8957C96CD">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:44:10 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_id" id="F4FA0A8F-B05D-CE8A-3C06-666E9644533B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:44:10 UTC</createdTime>
+<generatorID>D86DF6DC-6C26-05DD-EE7C-A9448EAF301A</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13D968E2-7AE8-5487-FA76-43A0194BFA0A" name="ENDERECO PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:44:10 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79D43A2B-550B-AA46-8220-337212E6A998</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

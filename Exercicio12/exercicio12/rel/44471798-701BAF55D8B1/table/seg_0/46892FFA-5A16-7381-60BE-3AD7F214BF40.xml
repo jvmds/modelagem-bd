@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46892FFA-5A16-7381-60BE-3AD7F214BF40" name="Pedido">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>555BADDD-B6F6-3661-DB4A-43406449581E</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero" id="535EA196-52F6-9B4A-C9D9-4D6003658A96">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>B4424EC2-CBFE-AD64-A1E0-D5B8FAD71D77</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_elaboracao" id="7EABF6BB-A83D-22FC-1C80-BABC7D3946A3">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>86BBEBB3-A392-6699-6BD4-42D308929A0D</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_ID" id="555705EC-ADD3-C197-CFFB-69A8CF5F7222">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Cliente_Cliente_ID" id="0F3DB01A-4733-EE72-C98E-709468F0E42F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C364E5E-F76C-A45A-4960-DFDB9EA4CD62" referredColumn="87873247-1995-E463-E5B3-F3514CF6F4F0"/>
+</associations>
+</Column>
+<Column name="Produto_Produto_ID" id="954116CB-608B-1745-E231-6FFDD1252842">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E25541D8-1A6A-1573-24CD-E2031788DED1" referredColumn="7B42F93A-15B9-E278-7830-49E2E92E89D7"/>
+</associations>
+</Column>
+<Column name="quantidade_comprada" id="E4747AF4-4CA6-874A-FE81-69EEBE27C3D0">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>8023A218-EBAC-867E-D92D-8E2B9735EDA3</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>E25541D8-1A6A-1573-24CD-E2031788DED1</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41022A48-1B52-151D-D04E-77C9D2E3175A" name="Pedido_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="555705EC-ADD3-C197-CFFB-69A8CF5F7222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFBDFE12-F62C-932A-655E-3A2FE9ADEBC0" name="Pedido_Cliente_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>250077FB-195E-83BC-A285-6F03D45EFDAC</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3DB01A-4733-EE72-C98E-709468F0E42F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA308C93-73C7-1F33-93BA-47E98C198FCD" name="FK_Pedido_Possui_Produto">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:24:05 UTC</createdTime>
+<generatorID>BEB5F0DB-2885-FF08-4702-7A36AB4DBB04</generatorID>
+<ownerDesignName>exercicio12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="954116CB-608B-1745-E231-6FFDD1252842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

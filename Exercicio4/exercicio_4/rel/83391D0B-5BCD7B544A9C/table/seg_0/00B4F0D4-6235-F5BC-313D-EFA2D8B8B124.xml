@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00B4F0D4-6235-F5BC-313D-EFA2D8B8B124" name="BANCO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>045D15D0-4735-D938-EDB1-5539B34B8CA6</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="banco_id" id="C2FCDF85-4ACA-B742-0D8A-FF6F978A496D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>90EC62B1-90A1-2596-7CDB-8B2C5E5C80D9</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="532499D4-11F9-B51E-EB42-AAABDE89E927">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>7B1EC7E6-E51C-1602-4899-339618A71BFF</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="9244FC80-6636-DE46-2EA4-443A4CF17199">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>A3D00727-3CE4-2D8E-3148-08AF953C4B3E</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_BANCO_endereco_id" id="66C6D167-0B00-8566-39BB-587D041BCF05">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>21535523-5A13-60AE-61E3-B22086407525</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="444A9B82-EBE1-706E-691B-C1B1CF5CEC1D" referredColumn="28AE5F09-5E71-B6E2-50C2-715520E1D82D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7F9B55C-B3F7-9CA9-9461-83E18AD6C8EC" name="BANCO_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>719D615E-5612-3B6E-1789-EF33758A7DDE</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2FCDF85-4ACA-B742-0D8A-FF6F978A496D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E122D6F-5D98-EFF1-0888-557348697AB8" name="BANCO__IDX">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B4F0EC95-D857-BD7C-9892-5938AF77389B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="66C6D167-0B00-8566-39BB-587D041BCF05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E862F3F-E00B-C338-8F9F-C03564B1EBF3" name="BANCO_ENDERECO_BANCO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:54:15 UTC</createdTime>
+<generatorID>B4F0EC95-D857-BD7C-9892-5938AF77389B</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66C6D167-0B00-8566-39BB-587D041BCF05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

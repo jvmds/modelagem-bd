@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="584B716F-5A87-6FCE-DD38-3EEA73EA4126" name="Autor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F76027A-7C1A-1567-B2DE-45D3FBD52B9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="22B13F3E-F705-E4AA-D220-257919888C0A" name="Categoria" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F76027A-7C1A-1567-B2DE-45D3FBD52B9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="B6EE91F2-7268-735E-DD9D-E121483FEB45" name="Livro" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F76027A-7C1A-1567-B2DE-45D3FBD52B9D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="F5181329-9C31-AAAF-1115-0D7825D3DBD0" name="FK_Categoria_Relaciona_Livro" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9F76027A-7C1A-1567-B2DE-45D3FBD52B9D" propertySourceId="22B13F3E-F705-E4AA-D220-257919888C0A" propertyTargetId="B6EE91F2-7268-735E-DD9D-E121483FEB45"/>
+   <object objectType="Relation" objectID="846C4FE8-9996-BE27-DAB3-8BDA3E7D75F5" name="FK_Livro_Escrito_Autor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9F76027A-7C1A-1567-B2DE-45D3FBD52B9D" propertySourceId="B6EE91F2-7268-735E-DD9D-E121483FEB45" propertyTargetId="584B716F-5A87-6FCE-DD38-3EEA73EA4126"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

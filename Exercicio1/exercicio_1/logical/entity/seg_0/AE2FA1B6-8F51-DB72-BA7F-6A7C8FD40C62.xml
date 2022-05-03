@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE2FA1B6-8F51-DB72-BA7F-6A7C8FD40C62" name="CIDADE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:55:18 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="aeroporto_id" id="C15AC41E-2E31-B5EF-1AD6-E583AEF35772">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:57:48 UTC</createdTime>
+<generatorID>D5D6DCD8-7E4D-A554-97CA-A43588DE75A0</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="true"/>
+</engineerTo>
+<referedAttribute>AE4825D0-310C-8122-0719-E71F4970A73C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

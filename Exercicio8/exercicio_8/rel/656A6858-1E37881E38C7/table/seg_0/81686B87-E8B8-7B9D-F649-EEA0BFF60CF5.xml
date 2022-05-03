@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81686B87-E8B8-7B9D-F649-EEA0BFF60CF5" name="Aluno">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>E4EAE985-8D08-589B-6272-1D1C64AD98FF</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Aluno_ID" id="12270B7D-3C5A-2ED1-169A-448DAE99A54A">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Matricula_Matricula_ID" id="E9B244F2-190C-E752-3186-E42256A3C55B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61D13E52-9C3D-B34C-E9BB-420251A5C0FD" referredColumn="79A74846-6A9B-04BB-3AA6-A59203A0D20E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6272A08C-30DE-644A-F3A6-E15D140B5790" name="Aluno_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="12270B7D-3C5A-2ED1-169A-448DAE99A54A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46E9E180-8671-3507-5F11-69C5B9029697" name="Aluno__IDX">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7E82990F-72C6-7BAF-A7B0-DB6D95D35B84</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E9B244F2-190C-E752-3186-E42256A3C55B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7091C489-2C58-412B-9EBB-357918A8A9B9" name="Aluno_Matricula_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>7E82990F-72C6-7BAF-A7B0-DB6D95D35B84</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9B244F2-190C-E752-3186-E42256A3C55B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

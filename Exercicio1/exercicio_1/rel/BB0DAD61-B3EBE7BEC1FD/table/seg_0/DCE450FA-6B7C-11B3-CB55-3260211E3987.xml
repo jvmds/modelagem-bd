@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCE450FA-6B7C-11B3-CB55-3260211E3987" name="CIDADE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>AE2FA1B6-8F51-DB72-BA7F-6A7C8FD40C62</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Aeroporto_aeroporto_id" id="15298752-5EA4-3C65-771D-B3DCE2C23453">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>C15AC41E-2E31-B5EF-1AD6-E583AEF35772</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DA1073E-5FFE-A4E2-72A5-8532DBD527D0" referredColumn="D85874EF-B8F8-AD8F-4EF7-67284507117E"/>
+</associations>
+</Column>
+<Column name="CIDADE_ID" id="B4075E8B-91D6-6BDB-D8ED-669943587AB6">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ESTADO_ESTADO_ID" id="2599231C-BBE5-5D9A-3239-97832D5DB3BC">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="462C4A4E-03E1-1809-0208-93E157A5CD16" referredColumn="028A8905-9B2E-EFDA-D8E2-8445A4416142"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E605C316-7F05-598C-8276-1894034B5BE8" name="CIDADE_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B4075E8B-91D6-6BDB-D8ED-669943587AB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C67C5F8-93FF-647B-CE85-45605822F7E2" name="CIDADE__IDX">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D5D6DCD8-7E4D-A554-97CA-A43588DE75A0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="15298752-5EA4-3C65-771D-B3DCE2C23453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DABDBF82-56D0-1D5F-BBB9-C0F6CF4E84CF" name="CIDADE_Aeroporto_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>D5D6DCD8-7E4D-A554-97CA-A43588DE75A0</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15298752-5EA4-3C65-771D-B3DCE2C23453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03642276-F600-5B67-4F18-878195AF314E" name="CIDADE_ESTADO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:59:51 UTC</createdTime>
+<generatorID>318C4059-4467-2028-6E8E-5B1191902DA9</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2599231C-BBE5-5D9A-3239-97832D5DB3BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

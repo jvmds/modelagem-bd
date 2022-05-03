@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8291A21E-F360-D9F4-4F01-4D895DC266C8" containerWithKeyObject="46BA3363-3F46-5B73-7A75-0838886EB599" localFKIndex="B0F86379-10D4-D830-85FB-00B51AB385FA" name="IMOVEL_PROPRIETARIO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<generatorID>0434660C-10E1-39EE-9112-CCE7D945165A</generatorID>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14787822-96E3-D4FB-9316-F42A5BEE82D8</referredTableID>
+<keyObject>2E0EC428-71CA-112E-4F7B-22020DDEA4BA</keyObject>
+<referredKeyID>2E0EC428-71CA-112E-4F7B-22020DDEA4BA</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46BA3363-3F46-5B73-7A75-0838886EB599" name="IMOVEL">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<generatorID>F208B80F-9C28-DCC4-E951-7610A46D9300</generatorID>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INQUILINOS_INQUILINOS_ID" id="84ABEE5D-7C7E-BB0E-2ACC-202D4DBE0026">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00241FAD-B59D-34BC-5892-8BAF7B0003A2" referredColumn="CC6D958B-8464-CEB1-AC2E-81916F463F92"/>
+</associations>
+</Column>
+<Column name="PROPRIETARIO_PROPRIETARIO_ID" id="E8FE4DAD-75B9-01A2-137E-F845A07A44DA">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8291A21E-F360-D9F4-4F01-4D895DC266C8" referredColumn="EC0C8F61-9EAF-88BE-3029-24C9EBFEDA99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DC8434E-21B0-A184-8B36-4BB7C73E4A5B" name="IMOVEL_INQUILINOS_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<generatorID>64497D7D-1370-748B-4259-6C7D0FE5450A</generatorID>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84ABEE5D-7C7E-BB0E-2ACC-202D4DBE0026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0F86379-10D4-D830-85FB-00B51AB385FA" name="IMOVEL_PROPRIETARIO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:03:36 UTC</createdTime>
+<generatorID>0434660C-10E1-39EE-9112-CCE7D945165A</generatorID>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8FE4DAD-75B9-01A2-137E-F845A07A44DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

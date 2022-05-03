@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Medico_Realiza_Nascimento_recem_Nascido" directorySegmentName="seg_0" id="97B3D3FB-832F-B47B-0A76-6DC70A319D84">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 20:00:21 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4110CB28-082E-2731-7451-7BF8C3A5D6A6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14B0FAD2-B229-846A-58B8-CCBDF949734D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

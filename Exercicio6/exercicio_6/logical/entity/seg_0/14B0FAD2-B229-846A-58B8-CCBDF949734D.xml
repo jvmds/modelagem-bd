@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14B0FAD2-B229-846A-58B8-CCBDF949734D" name="MEDICO">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:45:16 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="crm" id="7E427E39-CCD7-D59A-49CA-55885CCAA8D2">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:45:30 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="2FE05B52-F426-560E-A5CC-98B452278164">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:45:43 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidade" id="B7173062-1321-BDF6-6B73-7FCE7E2414DB">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:46:15 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

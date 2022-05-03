@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E57E7454-E4B4-CBAD-734E-136F82C02CFD" name="Produto">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:47:29 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<engineerTo>
+<item key="44471798-14C3-1767-9EDA-701BAF55D8B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="BF87A990-352B-0D7D-0107-556E585B574D">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:48:05 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<engineerTo>
+<item key="44471798-14C3-1767-9EDA-701BAF55D8B1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_produto" id="B943BD0E-68FA-F3B7-A0A5-677DAB3CCFAB">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:48:10 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<engineerTo>
+<item key="44471798-14C3-1767-9EDA-701BAF55D8B1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="60A3E23B-2269-C5F1-D265-6B0B30162CCE">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-23 21:48:19 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<engineerTo>
+<item key="44471798-14C3-1767-9EDA-701BAF55D8B1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="69363188-4D52-4BCD-B6DD-AB6B1CD7A5EE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:21:32 UTC</createdTime>
+<ownerDesignName>exercicio12</ownerDesignName>
+<engineerTo>
+<item key="44471798-14C3-1767-9EDA-701BAF55D8B1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

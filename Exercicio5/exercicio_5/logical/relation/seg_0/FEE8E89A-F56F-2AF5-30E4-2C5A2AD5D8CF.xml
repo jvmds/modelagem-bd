@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ALUNO_POSSUI_NOTA" directorySegmentName="seg_0" id="FEE8E89A-F56F-2AF5-30E4-2C5A2AD5D8CF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:27:35 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="346BD2C6-3CC1-0882-37A6-9EDBD6F9E999" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77BFF096-28D5-3593-782E-5C905517C558</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>212BF46E-E2AB-350E-43D9-1483AE50A645</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

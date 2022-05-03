@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MATRICULA_PERTENCE_CURSO" directorySegmentName="seg_0" id="2F7AB2AD-6F12-6DFE-F2E4-CA43632A7A91">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:13 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="346BD2C6-3CC1-0882-37A6-9EDBD6F9E999" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A0CA71E9-DE24-EAC2-61C3-4C978BAE5F3B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D7544C9-E10F-B760-CBF8-E8ED371FDA91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

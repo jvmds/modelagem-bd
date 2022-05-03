@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D7E2A9C-AD4A-6B5E-8F7F-5A2C638131A3" name="ESTUDANTE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:08:45 UTC</createdTime>
+<generatorID>66775179-6B01-7369-94D7-221C5FEBFC91</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="estudante_ID" id="C0CD3DB3-D4BF-13DB-E012-914EFCE5F14A">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:09:08 UTC</createdTime>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primeiro_nome" id="EE2839E9-EB41-7490-BA23-BBAC28E9CF50">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:08:45 UTC</createdTime>
+<generatorID>3E8B5EF1-5CA1-988A-2B7E-D718D4001C64</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ultimo_nome" id="5E20D20E-BCCF-AE1E-0075-E386015A8F1C">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:08:45 UTC</createdTime>
+<generatorID>9C58E798-EA15-0097-E5F0-5178C9137BE7</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="43D3722E-AB9A-510B-6C89-A51340AB0095">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:08:45 UTC</createdTime>
+<generatorID>38AC5A13-E24C-07AA-86DC-0AFB7054629E</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="5D153D8B-7F92-5236-D6F6-5C29D3ECDED8">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:08:45 UTC</createdTime>
+<generatorID>5DD0F00E-E8D9-4D0A-7BF3-B019F6F4EC10</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="1E0CD177-0431-31ED-172F-68706687B771">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:08:45 UTC</createdTime>
+<generatorID>1F3517BA-CB6B-2B69-CE59-DB87E561039B</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="291E5113-78F3-566B-B114-8FCB5F71DA33">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:08:45 UTC</createdTime>
+<generatorID>CC23C7E8-16BD-99C7-FAF7-A02B6F01022A</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="C25CF073-9703-9E77-2CD5-F6AC80A255A1">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:08:45 UTC</createdTime>
+<generatorID>2FEF0A89-5946-CA29-1A88-B00A80775E8C</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F34107F-0180-D9C4-9200-7F33B73E8FAE" name="ESTUDANTE_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:09:19 UTC</createdTime>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0CD3DB3-D4BF-13DB-E012-914EFCE5F14A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

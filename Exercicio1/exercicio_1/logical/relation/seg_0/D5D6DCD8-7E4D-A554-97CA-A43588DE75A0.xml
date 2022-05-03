@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AEROPORTO_PERTENCE_CIDADE" directorySegmentName="seg_0" id="D5D6DCD8-7E4D-A554-97CA-A43588DE75A0">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 17:57:48 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="273ADA30-A448-FAAA-D15E-56997B3051DC" value="true"/>
+</engineerTo>
+<sourcePk>80835935-31E6-DDDC-88CB-52F5F732B02C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1086426B-80EA-1435-5500-B496742B3FDB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AE2FA1B6-8F51-DB72-BA7F-6A7C8FD40C62</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

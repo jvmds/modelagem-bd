@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="461486DC-5A4B-A0D3-2496-18AD7B616220" name="FK_MATRICULA_PERTENCE_CURSO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATRICULA_MATRICULA_ID" id="467B1519-C9A8-3DD2-3B7C-F78859B1D266">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9090A395-CEE2-C907-3D54-12527AEE0F3B" referredColumn="8A1C234E-695D-E221-32F5-73BB9D47270D"/>
+</associations>
+</Column>
+<Column name="CURSO_CURSO_ID" id="E33D8A98-1BC0-D10F-0B44-9D33CC9B9A32">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09EC57E8-014E-D2B3-9F64-753E6ADCA299" referredColumn="EAC02641-B753-AA1A-014C-CDBAC262D5B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C14D296B-0803-A354-D0A4-09803AC52985" name="FK_MATRICULA_PERTENCE_CURSO_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="467B1519-C9A8-3DD2-3B7C-F78859B1D266"/>
+<colUsage columnID="E33D8A98-1BC0-D10F-0B44-9D33CC9B9A32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94D23434-FDF5-7C59-173F-E5C14A8146D3" name="FK_ASS_5">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<generatorID>2F7AB2AD-6F12-6DFE-F2E4-CA43632A7A91</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="467B1519-C9A8-3DD2-3B7C-F78859B1D266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DC400A8-1C29-CD43-4601-4FC5E14F4059" name="FK_ASS_6">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:34:48 UTC</createdTime>
+<generatorID>2F7AB2AD-6F12-6DFE-F2E4-CA43632A7A91</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E33D8A98-1BC0-D10F-0B44-9D33CC9B9A32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

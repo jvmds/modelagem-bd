@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Corretor_Atende_Inquilino" directorySegmentName="seg_0" id="14DD3AFE-220F-F6B5-8796-D8DD17DFD87A">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 15:02:07 UTC</createdTime>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<engineerTo>
+<item key="0E91D09C-853F-E452-BF4C-28511D0BCF09" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B290118B-E98C-6649-5515-F7FD515BECEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>560FD254-7DC1-6A01-3803-BCC1195A353E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

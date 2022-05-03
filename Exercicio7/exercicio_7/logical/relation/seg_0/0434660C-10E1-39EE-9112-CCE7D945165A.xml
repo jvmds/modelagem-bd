@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Proprietario_Possui_Imovel" directorySegmentName="seg_0" id="0434660C-10E1-39EE-9112-CCE7D945165A">
+<createdBy>joao</createdBy>
+<createdTime>2022-04-20 14:57:07 UTC</createdTime>
+<ownerDesignName>exercicio_7</ownerDesignName>
+<engineerTo>
+<item key="0E91D09C-853F-E452-BF4C-28511D0BCF09" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B1F845B2-CED7-B85E-F25E-207B6DD68FF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F208B80F-9C28-DCC4-E951-7610A46D9300</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

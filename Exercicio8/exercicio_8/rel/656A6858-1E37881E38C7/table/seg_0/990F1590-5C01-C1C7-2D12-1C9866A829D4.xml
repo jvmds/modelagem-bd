@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="990F1590-5C01-C1C7-2D12-1C9866A829D4" name="Notas">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>BD6420B4-DF14-B78C-C315-4888B913CEF2</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo" id="E83B0AC7-7BE3-3CB4-CDFD-FB3E9D81122D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>96581CDD-6D71-0B60-7123-390C46A71993</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="370A83CE-7489-FA92-2686-41B360A5DBE8">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>5E487ADC-C03F-628E-3495-A204B8BE795F</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aluno_Aluno_ID" id="62BD4A19-0CDF-6E4E-7811-7B5EBDA4572F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A2EBE2A-55C2-D4A8-EF82-741B49177368" referredColumn="12270B7D-3C5A-2ED1-169A-448DAE99A54A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB9C6C25-93B6-9D07-EB05-901246F27E52" name="Notas_Aluno_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>A1453C84-8D72-2AEC-E9B5-AF5BE7ECAC6D</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62BD4A19-0CDF-6E4E-7811-7B5EBDA4572F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

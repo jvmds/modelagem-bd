@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11CB46E4-F8F2-5AAC-56BD-8B40473485F7" name="Matricula">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>4B0D94D5-1051-4037-ED71-349153257EAF</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Matricula_ID" id="79A74846-6A9B-04BB-3AA6-A59203A0D20E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Aluno_Aluno_ID" id="3FC6E932-6AC0-104E-E9DA-8812A8F67C36">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03C5F40F-C101-F88E-F7E6-6656E6BCAEA5" referredColumn="12270B7D-3C5A-2ED1-169A-448DAE99A54A"/>
+</associations>
+</Column>
+<Column name="Curso_Curso_ID" id="842BBE3A-8893-08AE-557B-6DB6461F2688">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46686BE1-C200-5E21-2478-2EC87D6D6567" referredColumn="2C59ED99-F99F-CA1D-2F1F-3C2A8398DFC0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93982488-8975-C926-C714-1421F368DD47" name="Matricula_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="79A74846-6A9B-04BB-3AA6-A59203A0D20E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7898D320-3D00-D704-0CFD-7E1A97134941" name="Matricula__IDX">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7E82990F-72C6-7BAF-A7B0-DB6D95D35B84</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3FC6E932-6AC0-104E-E9DA-8812A8F67C36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3ED619E5-8F56-FE36-AAFB-E55676AC243E" name="Matricula_Aluno_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>7E82990F-72C6-7BAF-A7B0-DB6D95D35B84</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FC6E932-6AC0-104E-E9DA-8812A8F67C36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="378CA1A7-6BBA-840E-9218-2B20BE7B6538" name="Matricula_Curso_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:10:09 UTC</createdTime>
+<generatorID>8930786A-B81A-5C40-99E0-A77E89BFE2B4</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="842BBE3A-8893-08AE-557B-6DB6461F2688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

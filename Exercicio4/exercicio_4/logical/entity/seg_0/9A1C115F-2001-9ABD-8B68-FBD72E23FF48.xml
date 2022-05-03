@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A1C115F-2001-9ABD-8B68-FBD72E23FF48" name="TELEFONE_CLIENTE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:46:39 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefone_id" id="976B3A66-FB69-09D5-D22B-590F7CC68239">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:46:39 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_id" id="FBAE9AB3-BF57-B098-0A23-1717F18EA2FA">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:47:04 UTC</createdTime>
+<generatorID>8674D770-0CEB-E8A4-1E44-212D6E551A88</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="true"/>
+</engineerTo>
+<referedAttribute>9408E04F-16AF-F124-9A6D-6211C744CAAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB61182C-86FA-1C71-1F74-5E8AD1EC0CA4" name="TELEFONE PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 19:46:39 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5391B004-DF54-BD6B-F424-9D365589567D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>976B3A66-FB69-09D5-D22B-590F7CC68239</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

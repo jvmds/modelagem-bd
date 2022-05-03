@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CAD89DB-F8E6-3DB8-6B39-FEA3F483EA19" name="AGENCIA_BANCARIA">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:11:12 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="6124BF70-0509-8E61-F188-7DE8F5C8406B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="agencia_bancaria_id" id="AD20C47C-77BD-9BC0-E61D-CAC5F6750EEC">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:15:03 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="6124BF70-0509-8E61-F188-7DE8F5C8406B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_agencia" id="0803B4DA-3CBC-4673-5B37-CE5EB6CD2EF9">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:11:29 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="6124BF70-0509-8E61-F188-7DE8F5C8406B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_id" id="48EED16F-A303-41B4-5DA5-874A5E1DD06B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:19:37 UTC</createdTime>
+<generatorID>BBB0065C-2D5A-0B8E-ACCF-86C8EAD5A0F5</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="6124BF70-0509-8E61-F188-7DE8F5C8406B" value="true"/>
+</engineerTo>
+<referedAttribute>1256CC48-8CC9-5ACE-4F2F-8E561AE82853</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA0740C9-A305-CF2B-8063-7FB876B5E1A5" name="AGENCIA_BANCARIA PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 18:15:18 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="6124BF70-0509-8E61-F188-7DE8F5C8406B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD20C47C-77BD-9BC0-E61D-CAC5F6750EEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
