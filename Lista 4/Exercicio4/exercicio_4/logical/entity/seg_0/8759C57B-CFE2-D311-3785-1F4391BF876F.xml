@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8759C57B-CFE2-D311-3785-1F4391BF876F" name="Paciente">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:59:14 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPaciente" id="64D9CDF5-6EF2-94B5-A35A-3C6F28814A46">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:59:26 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomePaciente" id="938B25F7-1808-EF7C-3FE6-522F987DBBE9">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:59:50 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TelefonePaciente" id="71E0C250-62A4-3FB1-7926-0A8532401D63">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:00:04 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_6" id="9C256E2B-74C7-4A0A-D221-23CC086CD842">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:00:54 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A14D0BD-F2FE-3503-D992-148B63A39CFC" name="Paciente PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:59:49 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64D9CDF5-6EF2-94B5-A35A-3C6F28814A46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

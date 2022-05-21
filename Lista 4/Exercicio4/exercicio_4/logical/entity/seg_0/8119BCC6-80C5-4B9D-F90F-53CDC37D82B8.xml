@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8119BCC6-80C5-4B9D-F90F-53CDC37D82B8" name="Email">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:02:19 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdEmail" id="C4FE67BE-A26D-E7A8-7D27-3741AC7A158E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:02:38 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="53457577-180B-29AE-3A1A-FF28CE413EB4">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:02:24 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPaciente" id="7AD83626-326F-6560-5DEE-3E947502D9AB">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:03:30 UTC</createdTime>
+<generatorID>206C6418-CD11-014B-A59A-0B916E972966</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>64D9CDF5-6EF2-94B5-A35A-3C6F28814A46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAD4F554-2080-2B7D-0039-25B2937FA34D" name="Email PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:02:50 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4FE67BE-A26D-E7A8-7D27-3741AC7A158E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

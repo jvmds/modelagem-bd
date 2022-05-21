@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fk_Dentista_Associado_Agenda" directorySegmentName="seg_0" id="B09B508B-AB92-8834-DB17-A5C4F899A32C">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:09:00 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<sourcePk>8647D323-935E-A4C1-1366-3662D5B1B6CD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E554C926-D727-BBD7-D434-2D45541BBAE1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB53D2C9-C2A4-34FA-0CD5-FDDDCE0481A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

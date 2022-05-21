@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B822FDD-4E6D-5543-FE23-5F00769CA33E" name="Endereco">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:01:23 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdEndereco" id="783C1C91-D8B2-0C8D-108A-8F2EB52193F3">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:02:01 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rua" id="21338272-02B3-D14C-89B3-E48BCC862596">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:01:35 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cep" id="50B6851E-AB12-E545-E9FD-01851E8B9DB1">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:01:42 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="36359E9E-8D62-9712-5200-353859E654B8">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:01:50 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Complemento" id="89B502DD-7EF9-2CFF-6958-5086D130BFDF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:01:56 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPaciente" id="E440428F-4CA5-98C5-5FFD-1267BF50AF00">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:03:05 UTC</createdTime>
+<generatorID>8507CCA3-17EB-9040-F907-6D08520034A0</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<referedAttribute>64D9CDF5-6EF2-94B5-A35A-3C6F28814A46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B8ACBB0-0CDB-3BD4-FC63-2A16560620E8" name="Endereco PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:02:14 UTC</createdTime>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<engineerTo>
+<item key="8A24A9E3-7595-639A-5CB6-2FD16C4AC60A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>783C1C91-D8B2-0C8D-108A-8F2EB52193F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4436F374-E797-3AA6-93A7-5ADB5280EC81" name="Funcionario">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:39:29 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<engineerTo>
+<item key="2807AF1A-688F-98C1-1856-33CA5A86015F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Func_CPF" id="EE4409CF-B530-69D3-B256-A478CA2ED913">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:39:46 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<engineerTo>
+<item key="2807AF1A-688F-98C1-1856-33CA5A86015F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Func_Nome" id="94711AAD-ABD1-9500-99FF-CD1E4F772660">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:40:30 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<engineerTo>
+<item key="2807AF1A-688F-98C1-1856-33CA5A86015F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt_Nascimento" id="FAE14156-0522-CC4E-6A68-67DE13D18483">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:43:20 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<engineerTo>
+<item key="2807AF1A-688F-98C1-1856-33CA5A86015F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Setor" id="DD8D5DEA-BBA2-72B3-59AC-35ED89A68600">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:43:37 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<engineerTo>
+<item key="2807AF1A-688F-98C1-1856-33CA5A86015F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Dpt" id="0897A4DA-DC26-6C7C-BD30-06CBC5987695">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:46:55 UTC</createdTime>
+<generatorID>C330CC9C-E663-37E8-FDB1-33F7BEFCE0BF</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<engineerTo>
+<item key="2807AF1A-688F-98C1-1856-33CA5A86015F" value="true"/>
+</engineerTo>
+<referedAttribute>1C19361C-84DA-E2C9-0B81-764E3256A73F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CA95630-2FEF-43F8-2B8F-961160E78D71" name="Funcionario PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:42:34 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<engineerTo>
+<item key="2807AF1A-688F-98C1-1856-33CA5A86015F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE4409CF-B530-69D3-B256-A478CA2ED913</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

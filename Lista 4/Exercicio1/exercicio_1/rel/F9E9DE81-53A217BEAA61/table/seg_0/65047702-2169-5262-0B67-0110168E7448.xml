@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65047702-2169-5262-0B67-0110168E7448" name="FORNECEDOR">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:40:36 UTC</createdTime>
+<generatorID>ED91021F-9377-F30B-500A-BB9B9C82A07C</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fornecedor_id" id="591F0756-EAD6-711B-A42D-5E94BFE523C2">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:40:36 UTC</createdTime>
+<generatorID>3908F243-528E-539D-43F5-231BFA4050C8</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_fornecedor" id="C562F677-721D-7726-C180-0786D5BC29B8">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:40:36 UTC</createdTime>
+<generatorID>09607F40-2349-CA2B-2B7C-DF883DBBC49A</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="local_fornecedor" id="36A91B51-AA41-F40F-18C2-34398F76D7D7">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:40:36 UTC</createdTime>
+<generatorID>10469497-A41B-8D96-8843-1FD54255081D</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tel_fornecedor" id="1388A566-DE43-9962-9595-9FC5E5DD8D47">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:40:36 UTC</createdTime>
+<generatorID>142C5D8E-2C83-EE89-CD26-F846349BA62B</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DB7A596-E32C-D579-341B-56E8F29579D6" name="FORNECEDOR_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:40:36 UTC</createdTime>
+<generatorID>0927EC7B-981F-1325-BE7D-C44DF8740E71</generatorID>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="591F0756-EAD6-711B-A42D-5E94BFE523C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

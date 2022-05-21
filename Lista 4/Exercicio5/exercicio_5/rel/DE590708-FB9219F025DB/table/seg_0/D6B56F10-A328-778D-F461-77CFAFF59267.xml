@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6B56F10-A328-778D-F461-77CFAFF59267" name="EnderecoCliente">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>7193955F-AC16-B33D-8E53-A5C389CF5679</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEnderecoCliente" id="E053CBFC-8966-9E4B-AE6A-5913CD1B9C6C">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>7D1E049E-4192-ADB4-5D62-1A4EC630E446</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rua" id="893D6C80-A884-B310-801D-D995B3DB02B2">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>69724619-2C5E-5CC0-9679-4CA8379B1A94</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="B76D32A1-99A1-FBB0-1FEA-3203BBEFF799">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>BFCB2AE3-EEF0-6D18-2471-A5EF67EDAC69</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="785C13D4-B6F1-E09B-73D8-BFE32A962BB2">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>8F526825-1984-3555-C322-AA687AB41E00</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_IdCliente" id="9B367C43-46B2-C0A0-ECEA-61C0AE7332A9">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>55E58DDB-023D-81BD-3636-6A9F15CA095B</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5149D9A6-2D8D-F28D-18CA-A6A3A7C08F01" referredColumn="A004BDAF-5D80-DF15-2BFB-86BCCF0B6FAD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1489BA7B-6BA1-2235-BFA8-3CB7C4112878" name="EnderecoCliente_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>DFA02691-E650-B4F2-8FB1-935BE5955B50</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E053CBFC-8966-9E4B-AE6A-5913CD1B9C6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CCE7E80-FD5D-C583-899E-AC2332E697D5" name="EnderecoCliente_Cliente_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>93CC24BB-6437-A753-A263-71CA40C6A23E</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B367C43-46B2-C0A0-ECEA-61C0AE7332A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

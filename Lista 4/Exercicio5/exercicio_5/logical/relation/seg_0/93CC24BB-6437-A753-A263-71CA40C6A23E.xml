@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fk_Cliente_Possui_Endereco" directorySegmentName="seg_0" id="93CC24BB-6437-A753-A263-71CA40C6A23E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:17:27 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<sourcePk>585E8170-C057-BB0C-2C0D-2AFEAFC486A2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C94EF92-699F-E103-A9CA-DB3375D836A4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7193955F-AC16-B33D-8E53-A5C389CF5679</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

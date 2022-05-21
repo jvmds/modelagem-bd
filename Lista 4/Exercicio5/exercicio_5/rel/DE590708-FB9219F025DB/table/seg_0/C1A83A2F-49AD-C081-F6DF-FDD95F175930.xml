@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1A83A2F-49AD-C081-F6DF-FDD95F175930" name="Cliente">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>2C94EF92-699F-E103-A9CA-DB3375D836A4</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCliente" id="A004BDAF-5D80-DF15-2BFB-86BCCF0B6FAD">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>A14EA9A9-6A87-9DAC-BEBC-49C50C0A66C6</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeCliente" id="E7B02A12-74F6-18F3-C4AD-10CAEECC5916">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>BA0BA4A8-41FC-4318-E733-5516A66A4EFC</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50EA3E65-46FF-6CF1-C019-59EF70C5E1F6" name="Cliente_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:24:48 UTC</createdTime>
+<generatorID>585E8170-C057-BB0C-2C0D-2AFEAFC486A2</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A004BDAF-5D80-DF15-2BFB-86BCCF0B6FAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

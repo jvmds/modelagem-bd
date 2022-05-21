@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19E838D0-CF83-FED0-007E-E9DD178E0E16" name="PROJETO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>A7FF4C03-2588-FE6C-5E7B-1093CF39BFAF</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="projeto_id" id="41D8CFFA-B5E9-5067-A7FE-FBEC98A3BB27">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>B611463F-A647-95AC-B563-7D6E4995E19F</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_projeto" id="CEE730AA-859D-AC8A-0456-D748097D53EF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>C8217623-94CC-D9A2-9E8C-9D6498CDBCB1</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="projeto_nome" id="1AACF206-753F-FEF9-7AEB-FF1F35BE78CF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>F3F9FA1E-84A4-D726-998C-121E8B5B15F2</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="app" id="36ACA9CE-25F5-6319-4074-3BDE391CA343">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>064A5A81-C8B0-F4DE-0639-148DF1B95984</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUNCIONARIO_cpf" id="43B31FBE-F76F-7D6F-40B0-EECF46737AA5">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>9E246802-BB67-CE7F-CF92-BE9BCA3E6117</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC03937C-8A78-22DE-42C3-CCEA9CA8D938" referredColumn="E3EBB994-E379-9E17-4941-D7C8E6CDC334"/>
+</associations>
+</Column>
+<Column name="FUNCIONARIO_cod_projeto" id="C217FCB1-3998-F3AF-9EEC-3CBA88C71C08">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>CE3B0ED5-3CD1-E8AB-B0B4-4A2249632826</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC03937C-8A78-22DE-42C3-CCEA9CA8D938" referredColumn="E2ED9F83-0DE2-4D9C-F1F3-F5F20EE30E3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEFC60DB-6E76-1687-06EB-078AC0EEEDF2" name="PROJETO_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>FE43F17C-7310-E916-4CBB-FB45BF2302D1</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41D8CFFA-B5E9-5067-A7FE-FBEC98A3BB27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E19A8FEF-BEE9-78B9-93C4-85866DEEB1AE" name="PROJETO_FUNCIONARIO_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:50:22 UTC</createdTime>
+<generatorID>7B3E6121-F92A-C3CD-D3DD-649774206136</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43B31FBE-F76F-7D6F-40B0-EECF46737AA5"/>
+<colUsage columnID="C217FCB1-3998-F3AF-9EEC-3CBA88C71C08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AGENCIA_FAZ_ALOCACAO" directorySegmentName="seg_0" id="2F194A27-6C92-77C6-9EBC-A45F76DBA436">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:58:37 UTC</createdTime>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<engineerTo>
+<item key="68FA0559-64AE-8DA9-8695-877BB59C6A3E" value="true"/>
+</engineerTo>
+<sourcePk>8718609C-38FC-FC46-1A2F-5B9399DD2650</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AB8EF31D-179C-382F-47FE-D0B744734BF4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AAC02009-1577-04E3-CD4C-6C8931DFD79F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

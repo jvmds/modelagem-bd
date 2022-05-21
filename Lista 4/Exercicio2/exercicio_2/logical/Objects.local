@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E412F25F-63DC-A3B0-9501-FDB8F6794D0E" name="FUNCIONARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="2D842EAB-B460-F315-546C-866968DF8196" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A7FF4C03-2588-FE6C-5E7B-1093CF39BFAF" name="PROJETO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="2D842EAB-B460-F315-546C-866968DF8196" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="7B3E6121-F92A-C3CD-D3DD-649774206136" name="FK_FUNCIONARIO_TRABALHA_PROJETO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="2D842EAB-B460-F315-546C-866968DF8196" propertySourceId="E412F25F-63DC-A3B0-9501-FDB8F6794D0E" propertyTargetId="A7FF4C03-2588-FE6C-5E7B-1093CF39BFAF"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

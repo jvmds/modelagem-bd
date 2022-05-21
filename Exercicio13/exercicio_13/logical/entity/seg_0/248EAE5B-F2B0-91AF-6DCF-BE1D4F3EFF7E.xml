@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="248EAE5B-F2B0-91AF-6DCF-BE1D4F3EFF7E" name="TELEFONE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:01:07 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefone_id" id="6D259B0C-73E3-DF4D-EF12-C53A9BB2A277">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:01:43 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ddd" id="3996CCF4-2F4A-0E93-85B6-BF9CE358984B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:01:17 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="58CCA3B2-5550-BDF4-B1AA-EEA54051FD0B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:01:34 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_agencia_id" id="E98D631C-D656-5AEB-4345-53ADA347918E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:05:44 UTC</createdTime>
+<generatorID>88754916-473E-3183-F4F5-5DF83F715852</generatorID>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<referedAttribute>F3AB8138-4018-AB00-6C18-F152516194F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15409C47-F3CE-F789-4DB8-DCA2CB1AAF89" name="TELEFONE PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:01:58 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D259B0C-73E3-DF4D-EF12-C53A9BB2A277</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

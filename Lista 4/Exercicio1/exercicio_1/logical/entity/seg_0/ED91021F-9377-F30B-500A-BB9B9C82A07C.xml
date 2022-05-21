@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED91021F-9377-F30B-500A-BB9B9C82A07C" name="FORNECEDOR">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:28:38 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="F9E9DE81-CB49-9283-7379-53A217BEAA61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fornecedor_id" id="3908F243-528E-539D-43F5-231BFA4050C8">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:31:35 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="F9E9DE81-CB49-9283-7379-53A217BEAA61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_fornecedor" id="09607F40-2349-CA2B-2B7C-DF883DBBC49A">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:30:30 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="F9E9DE81-CB49-9283-7379-53A217BEAA61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="local_fornecedor" id="10469497-A41B-8D96-8843-1FD54255081D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:30:57 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="F9E9DE81-CB49-9283-7379-53A217BEAA61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_fornecedor" id="142C5D8E-2C83-EE89-CD26-F846349BA62B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:31:21 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="F9E9DE81-CB49-9283-7379-53A217BEAA61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0927EC7B-981F-1325-BE7D-C44DF8740E71" name="FORNECEDOR PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:32:07 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="F9E9DE81-CB49-9283-7379-53A217BEAA61" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3908F243-528E-539D-43F5-231BFA4050C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

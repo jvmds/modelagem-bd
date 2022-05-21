@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71C4A4D3-8565-606D-79FA-11C0A30EC61C" name="Vendedor">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:53:53 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="6FCFEBCF-F6AD-6B65-D8A9-A4FC6807D40D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Vendedor" id="FFF48DB7-0655-70A9-4CE4-31EFBB2EB74F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:54:03 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="6FCFEBCF-F6AD-6B65-D8A9-A4FC6807D40D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome_Vendedor" id="3FC66B19-7B84-A931-05E4-23ECE426F71B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:54:27 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="6FCFEBCF-F6AD-6B65-D8A9-A4FC6807D40D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44343C92-393F-F9F5-965C-56867A1D38F1" name="Vendedor PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:55:12 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="6FCFEBCF-F6AD-6B65-D8A9-A4FC6807D40D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFF48DB7-0655-70A9-4CE4-31EFBB2EB74F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

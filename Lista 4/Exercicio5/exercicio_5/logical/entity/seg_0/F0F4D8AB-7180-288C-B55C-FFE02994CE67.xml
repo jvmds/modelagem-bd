@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0F4D8AB-7180-288C-B55C-FFE02994CE67" name="TelefoneCliente">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:16:55 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTelefone" id="5B030B8F-7CF2-F645-E263-208F1B93FF57">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:17:03 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="8937920F-9119-7CE7-8823-ADBFDB27C4AB">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:17:14 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCliente" id="903351FE-8A75-9CC4-CF21-29F51395E2B6">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:17:48 UTC</createdTime>
+<generatorID>8ED0717E-80E7-4E69-43DF-E148DAF87A5D</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<referedAttribute>A14EA9A9-6A87-9DAC-BEBC-49C50C0A66C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6D1303F-89C7-1927-DD05-DBBB47252DB9" name="TelefoneCliente PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:19:57 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B030B8F-7CF2-F645-E263-208F1B93FF57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

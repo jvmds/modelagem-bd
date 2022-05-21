@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FORNECEDOR_FORNECE_PECA" directorySegmentName="seg_0" id="FA363EA0-3D4C-6011-B114-F8A8EF466CBE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:38:05 UTC</createdTime>
+<ownerDesignName>exercicio_1</ownerDesignName>
+<engineerTo>
+<item key="F9E9DE81-CB49-9283-7379-53A217BEAA61" value="true"/>
+</engineerTo>
+<sourcePk>0927EC7B-981F-1325-BE7D-C44DF8740E71</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED91021F-9377-F30B-500A-BB9B9C82A07C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BE0629C6-2537-8BC9-81E9-BC1C330DF9F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

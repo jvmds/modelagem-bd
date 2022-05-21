@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="AB8EF31D-179C-382F-47FE-D0B744734BF4" name="AGENCIA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="2C9F08A5-6CBB-BB7B-3BE9-33E5AB24D30A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="AAC02009-1577-04E3-CD4C-6C8931DFD79F" name="ALOCACOES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="2C9F08A5-6CBB-BB7B-3BE9-33E5AB24D30A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="2F194A27-6C92-77C6-9EBC-A45F76DBA436" name="FK_AGENCIA_FAZ_ALOCACAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="2C9F08A5-6CBB-BB7B-3BE9-33E5AB24D30A" propertySourceId="AB8EF31D-179C-382F-47FE-D0B744734BF4" propertyTargetId="AAC02009-1577-04E3-CD4C-6C8931DFD79F"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

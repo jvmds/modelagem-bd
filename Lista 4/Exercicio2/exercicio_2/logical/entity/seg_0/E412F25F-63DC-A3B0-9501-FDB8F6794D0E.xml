@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E412F25F-63DC-A3B0-9501-FDB8F6794D0E" name="FUNCIONARIO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:46:18 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="4744E006-FD2A-9637-CA5C-EABD55E851F1">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:46:33 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_projeto" id="513E276F-75E3-C033-6714-CAC3907B3573">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:46:57 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hs_trabalho" id="091657B9-A966-3EC8-77A7-E1F27EFFBE67">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:47:35 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="func_nome" id="BE9F395D-25B3-944E-B79D-4973894AD788">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:48:24 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47154473-B8FD-57B0-0A98-9B31FB6368D5" name="FUNCIONARIO PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:46:56 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4744E006-FD2A-9637-CA5C-EABD55E851F1</attributeRef>
+<attributeRef>513E276F-75E3-C033-6714-CAC3907B3573</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E23623EC-BC70-6A5E-DF02-D0CEB89801F7" name="FUNCIONARIO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 22:51:38 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_agencia_id" id="F3AB8138-4018-AB00-6C18-F152516194F4">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 22:55:05 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="4F8C914E-1ACF-7E65-9D75-C9BF0D64EA08">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 22:55:32 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="89BEDD0F-3DE2-3713-98ED-22B6B78110C3">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 22:56:11 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo_id" id="E65E5863-D353-4BE3-76D1-D56FA34B092F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:02:54 UTC</createdTime>
+<generatorID>4A06700D-9461-9A4E-206B-B9037D7E8F06</generatorID>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5D2B178F-6D88-0D57-CFFA-B7E338110CBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agencia_id" id="C1BA56E2-14C4-2C6B-15B0-C3246982237F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:16:25 UTC</createdTime>
+<generatorID>F4B0DD07-BE53-86FC-C10C-6586BB6B0ADF</generatorID>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<referedAttribute>8844AF97-63FC-41B1-CE4D-C9E30297D59A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1181E457-40BC-BF8B-7A81-DBD9052F04C8" name="FUNCIONARIO PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 22:55:30 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3AB8138-4018-AB00-6C18-F152516194F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

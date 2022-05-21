@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="06586DE6-634E-1106-A418-8CDCC904C350" name="Vendedor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="6FCFEBCF-F6AD-6B65-D8A9-A4FC6807D40D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="8F7962AC-1697-FFFB-D9D0-D777B62820A5" name="tbl_Venda" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="6FCFEBCF-F6AD-6B65-D8A9-A4FC6807D40D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="D2D92B02-20A0-9F20-73F4-F645F3DAD8F6" name="tbl_Venda_Vendedor_FK" seqName="seg_0" containerID="8F7962AC-1697-FFFB-D9D0-D777B62820A5" refContainerID="06586DE6-634E-1106-A418-8CDCC904C350" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="6FCFEBCF-F6AD-6B65-D8A9-A4FC6807D40D" propertySourceId="06586DE6-634E-1106-A418-8CDCC904C350" propertyTargetId="8F7962AC-1697-FFFB-D9D0-D777B62820A5"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

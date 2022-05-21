@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0ECABA24-A4BF-CC5B-1344-C7B2CE249E40" name="Paciente">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>8759C57B-CFE2-D311-3785-1F4391BF876F</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPaciente" id="CA8EC041-8780-92FD-3C6C-B00FA97E8F7D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>64D9CDF5-6EF2-94B5-A35A-3C6F28814A46</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomePaciente" id="4CBD5A29-79BE-E4E5-9234-D84C07861B17">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>938B25F7-1808-EF7C-3FE6-522F987DBBE9</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelefonePaciente" id="94F72C83-677F-F7D5-BAB3-5BA190A58CFA">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>71E0C250-62A4-3FB1-7926-0A8532401D63</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_6" id="4E79E43D-0D90-F926-C455-A28A339E898B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>9C256E2B-74C7-4A0A-D221-23CC086CD842</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2C0F3F6-D889-3CD5-AC63-542148B5E2F0" name="Paciente_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>1A14D0BD-F2FE-3503-D992-148B63A39CFC</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA8EC041-8780-92FD-3C6C-B00FA97E8F7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAC02009-1577-04E3-CD4C-6C8931DFD79F" name="ALOCACOES">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:52:55 UTC</createdTime>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<engineerTo>
+<item key="68FA0559-64AE-8DA9-8695-877BB59C6A3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_emp" id="C67FC442-1115-437B-9FF8-0698DD283FFD">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:53:18 UTC</createdTime>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<engineerTo>
+<item key="68FA0559-64AE-8DA9-8695-877BB59C6A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_ag" id="8CD2A3B4-1A53-24A8-FFE4-6847E511A29D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:53:43 UTC</createdTime>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<engineerTo>
+<item key="68FA0559-64AE-8DA9-8695-877BB59C6A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_sem" id="67B22AB5-BDCD-DF44-58B8-7F966BF48A83">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:54:02 UTC</createdTime>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<engineerTo>
+<item key="68FA0559-64AE-8DA9-8695-877BB59C6A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agencia_id" id="051B2EA8-BFA2-AB2F-C352-B1A26359CD08">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:58:37 UTC</createdTime>
+<generatorID>2F194A27-6C92-77C6-9EBC-A45F76DBA436</generatorID>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<engineerTo>
+<item key="68FA0559-64AE-8DA9-8695-877BB59C6A3E" value="true"/>
+</engineerTo>
+<referedAttribute>4058FA48-6808-A872-D4A3-23CD2A55F15F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7D56E03-F327-23F5-BA35-18C62CEF711C" name="ALOCACOES PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:57:41 UTC</createdTime>
+<ownerDesignName>exercicio_3</ownerDesignName>
+<engineerTo>
+<item key="68FA0559-64AE-8DA9-8695-877BB59C6A3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C67FC442-1115-437B-9FF8-0698DD283FFD</attributeRef>
+<attributeRef>8CD2A3B4-1A53-24A8-FFE4-6847E511A29D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F99F59A6-622D-4731-665A-17C3E5A3D167" name="Funcionario">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:47:59 UTC</createdTime>
+<generatorID>4436F374-E797-3AA6-93A7-5ADB5280EC81</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Func_CPF" id="3D699C76-8801-1F79-02EC-5624AF64281E">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:47:59 UTC</createdTime>
+<generatorID>EE4409CF-B530-69D3-B256-A478CA2ED913</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Func_Nome" id="0D4B57BF-81CE-C0F0-2A12-1A7A2714A5B9">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:47:59 UTC</createdTime>
+<generatorID>94711AAD-ABD1-9500-99FF-CD1E4F772660</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dt_Nascimento" id="09D32A53-D141-7538-6C2C-1070083D6F61">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:47:59 UTC</createdTime>
+<generatorID>FAE14156-0522-CC4E-6A68-67DE13D18483</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Setor" id="40E4BD28-8F69-F1A0-67F6-A7E57DF87CF9">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:47:59 UTC</createdTime>
+<generatorID>DD8D5DEA-BBA2-72B3-59AC-35ED89A68600</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_Cod_Dpt" id="571144C8-D071-A5F3-5EEC-F275BE86E925">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:47:59 UTC</createdTime>
+<generatorID>0897A4DA-DC26-6C7C-BD30-06CBC5987695</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC7CC713-2737-3B65-A3EF-A3B20E12B728" referredColumn="B8B6FC4B-AE98-7AB1-7A9D-D9710375B9EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CB4085F-8917-9398-4357-1E31C1E74F72" name="Funcionario_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:47:59 UTC</createdTime>
+<generatorID>4CA95630-2FEF-43F8-2B8F-961160E78D71</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D699C76-8801-1F79-02EC-5624AF64281E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBBDDBD5-5435-F1F2-3684-91090EC1D80F" name="Funcionario_Departamento_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:47:59 UTC</createdTime>
+<generatorID>C330CC9C-E663-37E8-FDB1-33F7BEFCE0BF</generatorID>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="571144C8-D071-A5F3-5EEC-F275BE86E925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

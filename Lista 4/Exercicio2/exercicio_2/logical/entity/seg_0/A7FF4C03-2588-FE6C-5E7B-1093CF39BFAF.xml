@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7FF4C03-2588-FE6C-5E7B-1093CF39BFAF" name="PROJETO">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:44:17 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="projeto_id" id="B611463F-A647-95AC-B563-7D6E4995E19F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:45:48 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_projeto" id="C8217623-94CC-D9A2-9E8C-9D6498CDBCB1">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:44:33 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="projeto_nome" id="F3F9FA1E-84A4-D726-998C-121E8B5B15F2">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:44:49 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="app" id="064A5A81-C8B0-F4DE-0639-148DF1B95984">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:45:11 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9E246802-BB67-CE7F-CF92-BE9BCA3E6117">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:49:21 UTC</createdTime>
+<generatorID>7B3E6121-F92A-C3CD-D3DD-649774206136</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<referedAttribute>4744E006-FD2A-9637-CA5C-EABD55E851F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_projeto1" id="CE3B0ED5-3CD1-E8AB-B0B4-4A2249632826">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:49:21 UTC</createdTime>
+<generatorID>7B3E6121-F92A-C3CD-D3DD-649774206136</generatorID>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<referedAttribute>513E276F-75E3-C033-6714-CAC3907B3573</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE43F17C-7310-E916-4CBB-FB45BF2302D1" name="PROJETO PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 00:46:03 UTC</createdTime>
+<ownerDesignName>exercicio_2</ownerDesignName>
+<engineerTo>
+<item key="54EC2553-3C80-80F5-6F07-82B3BC87F957" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B611463F-A647-95AC-B563-7D6E4995E19F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

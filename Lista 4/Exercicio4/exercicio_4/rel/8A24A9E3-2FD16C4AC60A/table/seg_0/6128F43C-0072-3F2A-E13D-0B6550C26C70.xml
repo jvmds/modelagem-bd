@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6128F43C-0072-3F2A-E13D-0B6550C26C70" name="Agenda">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>DB53D2C9-C2A4-34FA-0CD5-FDDDCE0481A4</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAgenda" id="0B2596F9-DA95-DC5C-7E39-DFC256821DC9">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>BD7E7F02-AD6E-E353-3D9E-E04FFB1827EC</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocalAtendimento" id="F47476B5-D3E1-F866-DAC3-C401C66E9E98">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>93F2DCF7-B50D-C03D-6813-722A2C8A1DCD</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataAtendimento" id="69A17B81-965C-6F03-CE83-4530E66D2001">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>0F939C59-B76A-66C2-B622-1E215326C858</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_IdPaciente" id="0B815FFF-0770-306D-012C-8A1AA8BA4802">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>7332BAF1-88B6-F8C9-0A26-8A84F4805C8B</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C6CDDD9-FC18-BB50-F1E4-481EDF190FD1" referredColumn="CA8EC041-8780-92FD-3C6C-B00FA97E8F7D"/>
+</associations>
+</Column>
+<Column name="Dentista_Cod_Dentista" id="816479EF-2F74-217E-0909-08E9F7F03CFA">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>78347235-8860-D88C-4044-B36BD176BDB2</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="889498AB-B7C2-A8DD-C307-E0C89BDF72BC" referredColumn="26D37EAE-9A76-FAB5-E886-E835FED108C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="399AAA78-E307-884D-1075-377EE43B529D" name="Agenda_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>382E3CBE-A422-D9A1-A4EC-C89F57DD3FC2</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2596F9-DA95-DC5C-7E39-DFC256821DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAFAC3D2-6296-DA8E-8E47-A40544536DA5" name="Agenda_Dentista_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>B09B508B-AB92-8834-DB17-A5C4F899A32C</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="816479EF-2F74-217E-0909-08E9F7F03CFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8546C476-3FF9-5182-9C11-99B49B3FF81F" name="Agenda_Paciente_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>8BFF3E76-76DF-06B8-E9CA-CA8B99C42FFC</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B815FFF-0770-306D-012C-8A1AA8BA4802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

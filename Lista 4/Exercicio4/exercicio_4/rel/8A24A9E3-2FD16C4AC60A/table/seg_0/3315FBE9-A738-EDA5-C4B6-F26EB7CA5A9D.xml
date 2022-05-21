@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3315FBE9-A738-EDA5-C4B6-F26EB7CA5A9D" name="Email">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>8119BCC6-80C5-4B9D-F90F-53CDC37D82B8</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEmail" id="5F4DEAD7-3177-A824-4FD2-95A787A5FEB8">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>C4FE67BE-A26D-E7A8-7D27-3741AC7A158E</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E11F26FD-F61F-ADE5-2DBE-D979720A79FE">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>53457577-180B-29AE-3A1A-FF28CE413EB4</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_IdPaciente" id="EB846E86-0065-5C54-F27B-5D872A3ADE1D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>7AD83626-326F-6560-5DEE-3E947502D9AB</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFA05D50-BCC5-4F2F-CF41-98ECCBC34EA9" referredColumn="CA8EC041-8780-92FD-3C6C-B00FA97E8F7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7D63D45-F065-2A16-1F56-0B226AF7AFDD" name="Email_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>FAD4F554-2080-2B7D-0039-25B2937FA34D</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F4DEAD7-3177-A824-4FD2-95A787A5FEB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C781AF2-B874-895C-8C5D-80F8A600F2AF" name="Email_Paciente_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:11:18 UTC</createdTime>
+<generatorID>206C6418-CD11-014B-A59A-0B916E972966</generatorID>
+<ownerDesignName>exercicio_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB846E86-0065-5C54-F27B-5D872A3ADE1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

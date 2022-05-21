@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FUNCIONARIO_POSSUI_ENDERECOv2" directorySegmentName="seg_0" id="F4B0DD07-BE53-86FC-C10C-6586BB6B0ADF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:16:09 UTC</createdTime>
+<ownerDesignName>exercicio_13</ownerDesignName>
+<engineerTo>
+<item key="E8EC982C-42DA-6216-382B-091F0219C380" value="true"/>
+</engineerTo>
+<sourcePk>1181E457-40BC-BF8B-7A81-DBD9052F04C8</sourcePk>
+<targetPk>F8BFABF2-DF60-AFCF-F69C-801235F7BD96</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E23623EC-BC70-6A5E-DF02-D0CEB89801F7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9DBE9C30-0D04-359C-1EBA-365B7F923B55</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

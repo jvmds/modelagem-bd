@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AGENCIA_POSSUI_ALOCACAO" directorySegmentName="seg_0" id="FE52404D-33C4-2AC0-9486-BD917D7EB014">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-03 23:56:54 UTC</createdTime>
+<ownerDesignName>exercicio14</ownerDesignName>
+<engineerTo>
+<item key="82F80C79-FD07-FF7F-0B33-55E7CB2AECB7" value="true"/>
+</engineerTo>
+<sourcePk>BEC3269F-81C6-AF54-2B78-445C0CBEB988</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FCD20FEB-17D4-15DC-2C95-5EA6198C1329</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5D5A3C3-87B5-B141-756C-D4F75EC7B3D0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CA27B57-D2E7-1C68-2C52-E00A295CD1DC" name="Compra">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:13:02 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCompra" id="04548610-1997-CF24-5EF7-D4A7D867D70C">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:13:12 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data" id="3693DA0F-2745-810E-AF8D-2343FCA2A69B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:13:27 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalCompra" id="DA4C3B61-65F0-6E18-6FF1-B5D59557F192">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:13:34 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalImposto" id="429EE1E1-4E32-4676-E420-7BE8231A59D8">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:14:30 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ValorTotalCompra" id="A5DDA435-8B84-FD21-093E-831828825A87">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:14:44 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCliente" id="D0F0DF2E-1AC7-8B00-F2A3-D054F00BF76D">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:19:07 UTC</createdTime>
+<generatorID>6D466125-2DB9-1EFC-F9EC-C9BA6E995677</generatorID>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<referedAttribute>A14EA9A9-6A87-9DAC-BEBC-49C50C0A66C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D313879B-D77F-B9E1-150B-2317F2A0B895" name="Compra PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 20:13:26 UTC</createdTime>
+<ownerDesignName>exercicio_5</ownerDesignName>
+<engineerTo>
+<item key="DE590708-9848-9998-E7A9-FB9219F025DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04548610-1997-CF24-5EF7-D4A7D867D70C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

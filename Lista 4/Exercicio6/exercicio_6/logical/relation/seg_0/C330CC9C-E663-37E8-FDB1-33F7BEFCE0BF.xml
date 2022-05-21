@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Depatamento_Possui_Funcionario" directorySegmentName="seg_0" id="C330CC9C-E663-37E8-FDB1-33F7BEFCE0BF">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:46:13 UTC</createdTime>
+<ownerDesignName>exercicio_6</ownerDesignName>
+<engineerTo>
+<item key="2807AF1A-688F-98C1-1856-33CA5A86015F" value="true"/>
+</engineerTo>
+<sourcePk>DB45A2F7-F4AF-F792-D932-D3C71601BB49</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>657822FF-B43E-0F98-031A-7918CE0AF57B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4436F374-E797-3AA6-93A7-5ADB5280EC81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

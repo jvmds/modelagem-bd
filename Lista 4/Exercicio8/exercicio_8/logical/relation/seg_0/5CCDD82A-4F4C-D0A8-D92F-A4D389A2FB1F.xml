@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fk_Vendedor_Realiza_Venda" directorySegmentName="seg_0" id="5CCDD82A-4F4C-D0A8-D92F-A4D389A2FB1F">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:54:52 UTC</createdTime>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<engineerTo>
+<item key="6FCFEBCF-F6AD-6B65-D8A9-A4FC6807D40D" value="true"/>
+</engineerTo>
+<sourcePk>44343C92-393F-F9F5-965C-56867A1D38F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71C4A4D3-8565-606D-79FA-11C0A30EC61C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7DF6B7B-460D-8C64-900F-A79D3B921046</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

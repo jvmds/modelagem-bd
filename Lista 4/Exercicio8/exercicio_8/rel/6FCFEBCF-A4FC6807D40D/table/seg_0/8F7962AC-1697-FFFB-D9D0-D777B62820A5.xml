@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F7962AC-1697-FFFB-D9D0-D777B62820A5" name="tbl_Venda">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:55:50 UTC</createdTime>
+<generatorID>B7DF6B7B-460D-8C64-900F-A79D3B921046</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nota_Fiscal" id="A6DC532F-2661-961D-FF46-39E736F0315A">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:55:50 UTC</createdTime>
+<generatorID>D334B8CF-CBE4-B437-CED4-A0AE72CAF94E</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cod_Produto" id="F159A5FC-5D30-406A-C04C-1D4145FDDCA1">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:55:50 UTC</createdTime>
+<generatorID>52202FA0-2593-D902-78B4-A17525749C99</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Qtde_Vendida" id="D5D53CB3-8FCA-59EF-4D81-46C8049ED88A">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:55:50 UTC</createdTime>
+<generatorID>89034C0B-4E05-5D70-41A6-8479ADE147C6</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_Cod_Vendedor" id="EF010FE0-6F80-4814-2885-953FC9DDD83B">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:55:50 UTC</createdTime>
+<generatorID>9A9C5669-A3AA-EDA1-F96D-66DA001F89A1</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2D92B02-20A0-9F20-73F4-F645F3DAD8F6" referredColumn="16D6A7C6-D1F4-3C0B-73F1-A342D9A018C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6469B38E-B7CF-D784-0318-6B4ADC65A92B" name="tbl_Venda_PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:55:50 UTC</createdTime>
+<generatorID>FF18DBDE-E447-7848-4FB7-6226AD4E8463</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6DC532F-2661-961D-FF46-39E736F0315A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="993DCF0E-1E0E-25F6-C35A-078BF461E36A" name="tbl_Venda_Vendedor_FK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-04 19:55:50 UTC</createdTime>
+<generatorID>5CCDD82A-4F4C-D0A8-D92F-A4D389A2FB1F</generatorID>
+<ownerDesignName>exercicio_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF010FE0-6F80-4814-2885-953FC9DDD83B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
